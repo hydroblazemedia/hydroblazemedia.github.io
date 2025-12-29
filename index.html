@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HydroBlaze | Future Media</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Noise -->
     <div class="noise-overlay"></div>
 
-    <!-- Custom Cursor -->
     <div class="cursor-dot"></div>
     <div class="cursor-outline"></div>
 
-    <!-- Preloader -->
     <div id="preloader">
         <div class="loader-wrap">
             <div class="loader-text">00</div>
@@ -29,12 +23,10 @@
         <div class="loader-line"></div>
     </div>
 
-    <!-- Background Canvas -->
     <div id="canvas-container">
         <canvas id="sphereCanvas"></canvas>
     </div>
 
-    <!-- Navigation -->
     <nav>
         <div class="logo">HYDROBLAZE<span class="tm">™</span></div>
         <div class="nav-right">
@@ -44,20 +36,14 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main>
         <section class="hero">
             <div class="hero-text">
                 <div class="label-box">For Industry Leaders</div>
-                <h1>
-                    Building Digital <br>
-                    <span class="gradient-text">Solutions That Matter</span>
-                </h1>
-                <p>We engineer virality for the 2025 economy.</p>
+                <h1 id="hero-title">Building Digital <br><span class="gradient-text">Solutions That Matter</span></h1>
+                <p id="hero-sub">We engineer virality for the 2025 economy.</p>
                 <div class="hero-cta">
-                    <button class="primary-btn">
-                        Start Project →
-                    </button>
+                    <button class="primary-btn">Start Project <span class="arrow">→</span></button>
                 </div>
             </div>
         </section>
@@ -67,12 +53,13 @@
                 <h2>Our Services</h2>
                 <div class="line"></div>
             </div>
-
-            <div class="grid">
+            
+            <div class="grid" id="cards-container">
                 <div class="card">
                     <div class="card-inner">
                         <div class="card-top">
-                            <span>01</span><span>↗</span>
+                            <span class="num">01</span>
+                            <span class="icon">↗</span>
                         </div>
                         <h3>Product Design</h3>
                         <p>User-centric UI/UX that drives engagement.</p>
@@ -82,11 +69,11 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
                     <div class="card-inner">
                         <div class="card-top">
-                            <span>02</span><span>↗</span>
+                            <span class="num">02</span>
+                            <span class="icon">↗</span>
                         </div>
                         <h3>Development</h3>
                         <p>Robust engineering for scalable platforms.</p>
@@ -96,11 +83,11 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
                     <div class="card-inner">
                         <div class="card-top">
-                            <span>03</span><span>↗</span>
+                            <span class="num">03</span>
+                            <span class="icon">↗</span>
                         </div>
                         <h3>GTM Strategy</h3>
                         <p>Data-driven campaigns to dominate the market.</p>
