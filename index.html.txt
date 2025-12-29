@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroBlaze | Future Media</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="noise-overlay"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div id="preloader">
+        <div class="loader-wrap">
+            <div class="loader-text">00</div>
+            <span class="percent">%</span>
+        </div>
+        <div class="loader-line"></div>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="sphereCanvas"></canvas>
+    </div>
+
+    <nav>
+        <div class="logo">HYDROBLAZE<span class="tm">™</span></div>
+        <div class="nav-right">
+            <a href="#" class="nav-link">Work</a>
+            <a href="#" class="nav-link">Agency</a>
+            <a href="#" class="btn-menu">MENU +</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <div class="label-box">For Industry Leaders</div>
+                <h1>Building Digital <br><span class="gradient-text">Solutions That Matter</span></h1>
+                <p>We engineer virality for the 2025 economy.</p>
+                <div class="hero-cta">
+                    <button class="primary-btn">Start Project →</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-section">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-top">
+                            <span>01</span><span>↗</span>
+                        </div>
+                        <h3>Product Design</h3>
+                        <p>User-centric UI/UX that drives engagement.</p>
+                        <div class="tags"><span>Figma</span><span>Spline</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-top">
+                            <span>02</span><span>↗</span>
+                        </div>
+                        <h3>Development</h3>
+                        <p>Robust engineering for scalable platforms.</p>
+                        <div class="tags"><span>React</span><span>WebGL</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-top">
+                            <span>03</span><span>↗</span>
+                        </div>
+                        <h3>GTM Strategy</h3>
+                        <p>Data-driven campaigns to dominate markets.</p>
+                        <div class="tags"><span>SEO</span><span>Ads</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
