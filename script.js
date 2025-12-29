@@ -1,3 +1,10 @@
+loading();
+
+// FAILSAFE: force hide preloader after 3 seconds
+setTimeout(() => {
+    preloader.style.transform = 'translateY(-100%)';
+    preloader.style.pointerEvents = 'none';
+}, 3000);
 const canvas = document.getElementById('sphereCanvas');
 const ctx = canvas.getContext('2d');
 
@@ -48,3 +55,4 @@ function animate() {
 }
 
 animate();
+
